@@ -23,8 +23,14 @@
 #motorcycles.insert(0, 'ducati')
 #print(motorcycles)
 
+#motorcycles = ['honda', 'yamaha', 'suzuki']
+#print(motorcycles)
+
+#del motorcycles[0]
+#print(motorcycles)
+
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
-del motorcycles[0]
+del motorcycles[1]
 print(motorcycles)
