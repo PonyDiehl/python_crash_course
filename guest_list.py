@@ -41,3 +41,4 @@ message1 = f"Hey, {guests[0]}, do you want to come to the dinner party?"
 message2 = f"Hey, {guests[1]}, do you want to come to the dinner party?"
 
 print(message1, message2)
+print(len(guests))
