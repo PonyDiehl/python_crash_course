@@ -14,7 +14,7 @@ message3 = f'I know {people[4]} is more of a city person, but I think they would
 print(message3)
 
 things.sort()
-message4 = f'I am going to bring all my {things} with me in case anyone needs to use them'
+message4 = f'I am going to bring my {things} with me in case anyone needs to use them'
 print(message4)
 
 places.sort(reverse=True)
@@ -22,3 +22,8 @@ places.pop(0)
 places.pop(1)
 message5 = f'Next time we can go to the {places}!'
 print(message5)
+
+bailed = 'Zach'
+people.remove(bailed)
+message6 = f'Sorry, {bailed.title()}! You can come next time!'
+print(message6)
