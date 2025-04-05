@@ -14,3 +14,10 @@ print("\nHere is the sorted list in reverse order:")
 print(sorted(world, reverse=True))
 
 print(sorted(world, reverse=False))
+
+# The sort() method sorts the list in alphabetical order and premarily changes the original list
+
+print("\nHere is the 'sort()' list:")
+
+world.sort()
+print(world)
