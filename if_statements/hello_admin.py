@@ -1,6 +1,6 @@
 users = ['admin', 'jaden', 'kristi', 'todd', 'tina']
 if 'admin' in users:
-    print(f"Hello Admin, would you like to see a status report?")
+    print(f"Hello {users[0]}, would you like to see a status report?")
 if  users[1]:
     print(f"Hello {users[1]}, thanks for logging in!")
 if  users[2]:
