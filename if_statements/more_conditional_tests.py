@@ -39,3 +39,7 @@ registered_users = ['player1', 'player2', 'player3']
 user = 'palyer4'
 if user not in registered_users:
     print(f'{user.title()} Sign up to play!')
+registered_users = ['player1', 'player2', 'player3']
+user = 'player1'
+if user in registered_users:
+    print(f'{user.title()} have fun!')
