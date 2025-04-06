@@ -15,3 +15,14 @@ elif age < 18:
 else:
     price = 50
 print(f"Your ticket price is ${price}")
+# Using multiple elif blocks
+age = 12
+if age < 4:
+    price = 0
+elif age < 18:
+    price = 25
+elif age < 65:
+    price = 50
+else: 
+    price = 30
+print(f"Your ticket price is ${price}")
