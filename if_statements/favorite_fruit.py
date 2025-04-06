@@ -1,11 +1,11 @@
 favorite_fruit = ['pomegranate', 'mango', 'kiwi']
-if favorite_fruit == 'pomegranate':
+if 'pomegranate' in favorite_fruit:
     print("\nI really like pomegranate!")
-if favorite_fruit == 'apples':
+if 'apples' in favorite_fruit:
     print("\nI really like apples!")
-if favorite_fruit == 'mango':
+if 'mango' in favorite_fruit:
     print("\nI really like mango!")
-if favorite_fruit == 'strawberrys':
+if 'strawberrys' in favorite_fruit:
     print("\nI really like strawberrys!")
-if favorite_fruit == 'kiwi':
+if 'kiwi' in favorite_fruit:
     print("\nI really like kiwi!")
