@@ -1,3 +1,11 @@
-user = ['admin', 'jaden', 'kristi', 'todd', 'tina']
-if user is 'admin':
-    print(f"Hello {user.title()}")
+users = ['admin', 'jaden', 'kristi', 'todd', 'tina']
+if 'admin' in users:
+    print(f"Hello Admin, would you like to see a status report?")
+if  users:
+    print(f"Hello {users[1]}, thanks for logging in!")
+if  users:
+    print(f"Hello {users[2]}, thanks for logging in!")
+if  users:
+    print(f"Hello {users[3]}, thanks for logging in!")
+if  users:
+    print(f"Hello {users[4]}, thanks for logging in!")
