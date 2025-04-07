@@ -7,5 +7,5 @@ for number in numbers:
     elif number == 3:
         print(f'{number}rd')
     else:
-        print(f'{number}rd')
+        print(f'{number}th')
 
