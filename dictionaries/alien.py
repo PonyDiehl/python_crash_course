@@ -16,3 +16,18 @@ print(alien_0)
 alien_0['x_position'] = 0
 alien_0['y_position'] = 25
 print(alien_0)
+
+# Starting with an empty dictionary 
+
+alien_0 = {}
+
+alien_0['color'] = 'green'
+alien_0['points'] = 5
+
+print(alien_0)
+
+# Modifying values in a dictionary 
+
+alien_0 = {'color': 'green'}
+print(f"The alien is {alien_0['color']}.")
+
